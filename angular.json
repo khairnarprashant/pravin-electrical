@@ -47,7 +47,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/pravin-electrical/"
+              "baseHref": "/pravin-eletrical-ui/"
             },
             "development": {
               "optimization": false,
