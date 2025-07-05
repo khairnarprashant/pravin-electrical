@@ -1,0 +1,44 @@
+.hero-section {
+  background-color: #061f2e; /* Midnight Blue */
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.hero-subtitle {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.hero-text {
+  color: #d6d6d6;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.hero-btn {
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background-color: #e0a800;
+}
+
+.hero-img {
+  margin-top: 40px;
+  max-width: 150%;
+  height: auto;
+}

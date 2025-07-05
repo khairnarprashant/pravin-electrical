@@ -1,0 +1,24 @@
+<section class="services-section py-5 text-white">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h6 class="text-warning fw-bold">Our Services</h6>
+      <h2 class="fw-bold display-6">Power up your life with our electrical services!</h2>
+      <p class="text-light">
+        We offer electrical services for residential, commercial, and industrial projects installations, repairs, and upgrades by certified, reliable, and efficient electricians.
+      </p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4" *ngFor="let service of services">
+        <div class="p-4 h-100 service-card">
+          <div class="mb-3 text-left">
+            <img [src]="service.icon" alt="icon" width="60" />
+          </div>
+          <h5 class="text-primary fw-bold">{{ service.title }}</h5>
+          <p class="text-muted">{{ service.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
